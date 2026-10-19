@@ -5,6 +5,8 @@
 ## 📋 Overview
 This project implements a 6-compartment hybrid PK model to simulate the distribution of both liposomal and free doxorubicin in a murine model. The model specifically investigates how the liposomal release rate ($k_{release}$) and saturable Mononuclear Phagocyte System (MPS) clearance affect the peak concentration ($C_{max}$) in cardiac tissue, providing a mechanistic explanation for the cardioprotective effects of PEGylated liposomal doxorubicin (e.g., Doxil).
 
+> **⚠️ Current Status:** The model architecture and ODE system are fully implemented. Calibration and validation against preclinical murine data (Luo et al., 2017; Cao et al., 2025) is currently in progress using digitized concentration-time profiles.
+
 ## 🧬 Model Structure
 The model tracks two distinct forms of the drug across key physiological compartments:
 1. **Liposomal DOX**: Plasma, MPS (liver/spleen aggregate), Tumor tissue.
